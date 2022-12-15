@@ -1,0 +1,17 @@
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\bin\Debug\CompareApp.exe.config
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\bin\Debug\CompareApp.exe
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\bin\Debug\CompareApp.pdb
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.csproj.AssemblyReference.cache
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.Properties.Resources.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.csproj.GenerateResource.cache
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.exe
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.pdb
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.Start.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.ExpertConfiguring.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.EvaluatingPriorities.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.Final.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.Welcome.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.StartInstructions.resources
+C:\Users\Дмитрий Сергеевич\Desktop\ТСиСА\CompareApp\CompareApp\obj\Debug\CompareApp.ExpertInstructions.resources
