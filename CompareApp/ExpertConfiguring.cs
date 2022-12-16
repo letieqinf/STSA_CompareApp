@@ -183,10 +183,11 @@ namespace CompareApp
                     if (expertLabel.Text == string.Empty)
                         throw new FormatException("Имя эксперта не может быть пустым.");
 
-                    if (weightTb.Text == string.Empty 
-                        || Convert.ToDouble(weightTb.Text) <= 0
-                        || Convert.ToDouble(weightTb.Text) > 1)
+                    if (weightTb.Text == string.Empty)
                         throw new FormatException("Вес эксперта задан некорректно.");
+
+                    if (Convert.ToDouble(weightTb.Text) < 0.0 || Convert.ToDouble(weightTb.Text) > 1.0)
+                        throw new FormatException("Вес эксперта задан некорректно");
 
                     if (AltList.Any(alternative => alternative.Estimation.Text == string.Empty))
                         throw new FormatException("Приоритет должен быть задан числом с плавающей точкой.");
