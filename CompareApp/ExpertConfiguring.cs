@@ -184,16 +184,16 @@ namespace CompareApp
                         throw new FormatException("Имя эксперта не может быть пустым.");
 
                     if (weightTb.Text == string.Empty 
-                        || double.Parse(weightTb.Text) <= 0
-                        || double.Parse(weightTb.Text) > 1)
+                        || Convert.ToDouble(weightTb.Text) <= 0
+                        || Convert.ToDouble(weightTb.Text) > 1)
                         throw new FormatException("Вес эксперта задан некорректно.");
 
                     if (AltList.Any(alternative => alternative.Estimation.Text == string.Empty))
                         throw new FormatException("Приоритет должен быть задан числом с плавающей точкой.");
 
                     if (AltList.Any(alternative =>
-                            double.Parse(alternative.Estimation.Text) < 0.0
-                            || double.Parse(alternative.Estimation.Text) > 1.0))
+                            Convert.ToDouble(alternative.Estimation.Text) < 0.0
+                            || Convert.ToDouble(alternative.Estimation.Text) > 1.0))
                         throw new DataException("Приоритет должен быть задан в диапазоне [0.0; 1.0].");
                 }
                 catch (FormatException exception)
@@ -207,7 +207,7 @@ namespace CompareApp
 
                 var expert = ExpertsArray[_current];
                 expert.Name = expertLabel.Text;
-                expert.Weight = double.Parse(weightTb.Text);
+                expert.Weight = Convert.ToDouble(weightTb.Text);
                 if (expert.AltList.Length == 0)
                 {
                     foreach (var alternative in AltList)
@@ -215,7 +215,7 @@ namespace CompareApp
                         expert.AltList = expert.AltList.Append(new ExpertEstimation()
                         {
                             Alternative = alternative.Alternative.Text,
-                            Estimation = double.Parse(alternative.Estimation.Text),
+                            Estimation = Convert.ToDouble(alternative.Estimation.Text),
                             RelativePriority = alternative.RelativePriority.Checked
                         }).ToArray();
                     }
@@ -224,7 +224,7 @@ namespace CompareApp
                 {
                     for (var i = 0; i < expert.AltList.Length; i++)
                     {
-                        expert.AltList[i].Estimation = double.Parse(AltList[i].Estimation.Text);
+                        expert.AltList[i].Estimation = Convert.ToDouble(AltList[i].Estimation.Text);
                         expert.AltList[i].RelativePriority = AltList[i].RelativePriority.Checked;
                     }
                 }
