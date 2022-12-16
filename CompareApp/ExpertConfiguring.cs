@@ -137,7 +137,7 @@ namespace CompareApp
         {
             _current++;
             expertLabel.Text = ExpertsArray[_current].Name;
-            weightTb.Text = ExpertsArray[_current].Weight.ToString(CultureInfo.InvariantCulture);
+            weightTb.Text = ExpertsArray[_current].Weight.ToString("0.000");
 
             ResetInformation();
             GetExpertData();
@@ -153,7 +153,7 @@ namespace CompareApp
         {
             _current--;
             expertLabel.Text = ExpertsArray[_current].Name;
-            weightTb.Text = ExpertsArray[_current].Weight.ToString(CultureInfo.InvariantCulture);
+            weightTb.Text = ExpertsArray[_current].Weight.ToString("0.000");
 
             ResetInformation();
             GetExpertData();
@@ -245,7 +245,7 @@ namespace CompareApp
 
             for (var i = 0; i < AltList.Length; i++)
             {
-                AltList[i].Estimation.Text = expert.AltList[i].Estimation.ToString(CultureInfo.CurrentCulture);
+                AltList[i].Estimation.Text = expert.AltList[i].Estimation.ToString("0.000");
                 if (expert.AltList[i].RelativePriority)
                     AltList[i].RelativePriority.CheckState = CheckState.Checked;
             }

@@ -4,7 +4,10 @@
     <projectFile>CompareApp/CompareApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="288fa2af-da75-45a8-84c9-a486a7e88a53" name="Changes" comment="" />
+    <list default="true" id="288fa2af-da75-45a8-84c9-a486a7e88a53" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompareApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompareApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompareApp/ExpertConfiguring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CompareApp/ExpertConfiguring.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IiYIk1245DXSc5i8xoaf3Zd6Q6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,14 +67,26 @@
       <workItem from="1671097434054" duration="3789000" />
       <workItem from="1671082187435" duration="14114000" />
       <workItem from="1671099481684" duration="886000" />
-      <workItem from="1671140626610" duration="4676000" />
+      <workItem from="1671140626610" duration="5836000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
